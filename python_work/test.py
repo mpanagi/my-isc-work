@@ -7,12 +7,13 @@
 #    pass
 
 
-mylist = [23, "hi", 2.4e-10]
+gases = ['He', 'Ne', 'Ar', 'Kr']
 count = 0
-while count < 3:
-    item = mylist[count]
-    print item, mylist.index(item)
+while count < 4:
+    item = gases[count]
+    print item, gases.index(item)
     count += 1
+
 
 # if, elif and else:
 
@@ -23,4 +24,14 @@ elif x == 1:
     print 1
 else:	#use else to catch the other possibilities (other than 1 and 2)
     print "horray"
+
+x = [1, 1, 4, 5, 1, 1]
+while 1 in x:
+    print x
+    x.remove(1)
+
+#or you can use set:
+
+s = set(x)
+s
 
