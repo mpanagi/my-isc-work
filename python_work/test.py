@@ -13,3 +13,14 @@ while count < 3:
     item = mylist[count]
     print item, mylist.index(item)
     count += 1
+
+# if, elif and else:
+
+x=0
+if x == 2:
+    print x
+elif x == 1:
+    print 1
+else:	#use else to catch the other possibilities (other than 1 and 2)
+    print "horray"
+
